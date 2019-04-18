@@ -18,6 +18,6 @@ type Lista_remedio = [Remedio] --tipo de teste
 
 --adicionarMedicamento :: Medicamento -> Medicamentos -> Medicamentos
 
-colocarMedicamento :: Remedio -> Lista_remedio --ate o momento pega um remedio e torna o mesmo na Lista_remedio
+colocarMedicamento :: Remedio -> Lista_remedio --ate o momento pega um remedio e retorna o mesmo na Lista_remedio
 colocarMedicamento z = z : [] -- a letra z recebe o remedio e adiciona na Lista_remedio
 
