@@ -22,7 +22,8 @@ a sua quantidade deve ser atualizada na lista. O tipo da função adicionarMedic
 
 adicionarMedicamento :: Medicamento -> Medicamentos -> Medicamentos
 adicionarMedicamento nome [] = nome : [] -- nome e a variavel escolhida para receber os parametros, que no caso eh o nome do remedio e sua quantidade
-
+adicionarMedicamento nome (x : xs) | fst nome == fst x = (fst nome, snd nome + snd x) : xs
+                                   | otherwise = x : adicionarMedicamento nome xs
 
 
 {-
@@ -33,4 +34,6 @@ existir, a lista original de medicamentos é retornada. O tipo da função remov
 
 removerMedicamento :: Nome -> Medicamentos -> Medicamentos
 -}
+
+removerMedicamento :: Nome -> Medicamentos -> Medicamentos
 
