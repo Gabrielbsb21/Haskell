@@ -10,14 +10,11 @@ type Medicamento = (Nome,Quantidade)
 type Medicamentos = [Medicamento]
 type Prescricao = (Nome,Horario,HorarioProximo)
 type PlanoMedicamento = [Prescricao]
-type Remedio = String --tipo de teste
-type Lista_remedio = [Remedio] --tipo de teste
 
---testes da questao 1
+--TESTES DA QUESTÃO 1
 --remedio = ("dorflex", 5)
 
---adicionarMedicamento :: Medicamento -> Medicamentos -> Medicamentos
-
-colocarMedicamento :: Remedio -> Lista_remedio --ate o momento pega um remedio e retorna o mesmo na Lista_remedio
-colocarMedicamento z = z : [] -- a letra z recebe o remedio e adiciona na Lista_remedio
+adicionarMedicamento :: Medicamento -> Medicamentos -> Medicamentos
+adicionarMedicamento nome [] = nome : [] -- nome e a variavel escolhida para receber os parametros, que no caso eh o nome do remedio e sua quantidade
+-- "x" representa a cabeca da lista, e "xs" representa todo o resto da lista
 

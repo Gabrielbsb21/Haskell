@@ -21,6 +21,8 @@ a sua quantidade deve ser atualizada na lista. O tipo da função adicionarMedic
 -}
 
 adicionarMedicamento :: Medicamento -> Medicamentos -> Medicamentos
+adicionarMedicamento nome [] = nome : [] -- nome e a variavel escolhida para receber os parametros, que no caso eh o nome do remedio e sua quantidade
+
 
 
 {-
