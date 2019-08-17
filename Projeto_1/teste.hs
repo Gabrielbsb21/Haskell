@@ -6,6 +6,7 @@ type Quantidade = Int
 type HorarioProximo = Int
 type HoraAtual = Int
 type Horario = [Int]
+type Horario2 = [Int] {-teste-}
 type Medicamento = (Nome,Quantidade)
 type Medicamentos = [Medicamento]
 type Prescricao = (Nome,Horario,HorarioProximo)
