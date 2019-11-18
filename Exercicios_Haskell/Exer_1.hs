@@ -3,4 +3,5 @@
 
 
 soma :: Int -> Int -> Int --declara a funcao soma
+
 soma a b = a + b -- funcao soma recebe a + b
