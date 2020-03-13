@@ -10,6 +10,7 @@ type Medicamento = (Nome,Quantidade)
 type Medicamentos = [Medicamento]
 type Prescricao = (Nome,Horario,HorarioProximo)
 type PlanoMedicamento = [Prescricao]
+type Teste = String
 
 {-
  **QUESTÃO 1**
