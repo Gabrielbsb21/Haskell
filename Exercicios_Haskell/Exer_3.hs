@@ -1,5 +1,6 @@
 {- Escreva uma função para calcular a multiplicação de três números inteiros, como no
-exemplo abaixo:
+exemplo abaixo: 
+
 -}
 
 mult :: Int -> Int -> Int -> Int
