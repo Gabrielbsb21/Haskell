@@ -1,9 +1,4 @@
-{- Construa uma função que verifica se duas listas são iguais
- - O que é serem iguais?
- - Mesmo número de elementos
- - Possuírem os mesmos elementos
- - Os elementos estarem na mesma posição
--}
+
 
 igual :: [Int] -> [Int] -> Bool
 igual [] [] = True -- se as listas form vazias, retorna true

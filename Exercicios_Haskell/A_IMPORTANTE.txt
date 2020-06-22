@@ -1,1 +1,0 @@
-O enunciado do exercício e a resolução do problema, estão no mesmo arquivo, que no caso é "Exer_*.hs" sendo "*" o número da atividade.

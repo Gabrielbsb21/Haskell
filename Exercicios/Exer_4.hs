@@ -1,0 +1,7 @@
+
+
+
+func :: Char -> Double -> Double -> Double
+func a b c | (a == '*') = (b * c)
+           | (a == '/') = b / c
+           | otherwise = 0

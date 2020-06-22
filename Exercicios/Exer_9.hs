@@ -1,9 +1,4 @@
-{-Função ordena
-Essa funcão vai ordenar ums lista de inteiros, em ordem crescente.
 
-exemplo de entrada : [5,8,1,19]
-exemplo de saide: [1,5,8,10]
--}
 
 lista :: [Int]
 lista = [5,2,10,1,9]
